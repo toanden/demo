@@ -1,0 +1,93 @@
+body {
+    margin: 0 auto 0 auto;
+}
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.middle-container {
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.middle-middle-container {
+    position: relative;
+}
+.middle-middle-middle-container {
+    position: relative;
+    display: inline-block;
+}
+.top-cloud {
+    position: absolute;
+    top: 0px;
+    left: 1220px;
+    width: 10%;
+}
+.middle-cloud {
+    position: absolute;
+    left: 520px;
+    width: 20%;
+}
+.bot-mountain {
+    margin: 0 auto;
+    width: 70%;
+}
+.avatar-img {
+    background-color: white;
+    height: 10%;
+    width: 10%;
+}
+.computer-img {
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.head-name {
+    color: #66BFBF;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 5em;
+}
+.head-job {
+    color: #66BFBF;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 3em;
+}
+.middle-name {
+    color: #66BFBF;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+.bot-name {
+    color: #66BFBF;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2em;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    margin-top: 0px;
+}
+.head-edting {
+    text-decoration: underline;
+}
+.information-me {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-size: 1.5em;
+    width: 390px;
+    color: #40514E;
+}
+.middle {
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    border-width: 8px;
+    width: 4%;
+}
+}
