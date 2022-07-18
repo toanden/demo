@@ -10,7 +10,6 @@ body {
 }
 .middle-container {
     position: relative;
-    text-align: center;
     padding-top: 100px;
     margin: 0 auto;
 }
@@ -40,12 +39,14 @@ body {
     background-color: white;
     height: 10%;
     width: 10%;
+    padding-left: 45%;
 }
 .computer-img {
     position: relative;
     display: inline-block;
     height: 200px;
     width: 200px;
+    padding-left:  30%;
 }
 .head-name {
     color: #66BFBF;
@@ -70,8 +71,9 @@ body {
     font-size: 2em;
     text-align: center;
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: 0px;
+    left: 41%;
     margin-top: 0px;
 }
 .head-edting {
@@ -90,4 +92,9 @@ body {
     border-width: 8px;
     width: 4%;
 }
+.content-skill {
+    display: inline;
+    position: absolute;
+    top: 40px;
+    left: 41%;
 }
