@@ -2,12 +2,48 @@ body {
     margin: auto;
 }
 
+hr {
+    border: dotted 5px #EAF6F6;
+    border-bottom: none;
+    width: 3%;
+}
+
 .top-container {
     background-color: #EAF6F6;
-    padding: 20px;
+    padding: 100px;
+    text-align: center;
 }
 
 .top-cloud {
-   margin: 0 auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 40px;
+    right: 25%;
+    width: 7%;
+}
 
+.middle-cloud {
+    position: absolute;
+    left: 25%;
+    width: 8%;
+}
+
+.mountain {
+    width: 60%;
+}
+
+.head-name {
+    color: #66BFBF;
+    font-family: 'Edu TAS Beginner', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.head-job {
+    color: #66BFBF;
+    font-family: 'Edu TAS Beginner', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.pro {
+    text-decoration: underline;
 }
