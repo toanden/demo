@@ -1,49 +1,71 @@
 body {
-    margin: auto;
+    margin: 0;
 }
 
 hr {
     border: dotted 5px #EAF6F6;
     border-bottom: none;
-    width: 3%;
+    width: 35px;
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #66BFBF;
 }
 
 .top-container {
     background-color: #EAF6F6;
-    padding: 100px;
     text-align: center;
+    margin: 0px auto 20px auto;
 }
 
-.top-cloud {
+.top_cloud {
+    position: relative;
+    left: 300px;
+    width: 9.375rem;
+    height: 3rem;
+    margin-top: 20px;
+}
+.bot_cloud {
+    position: absolute;
+    left: 12.5rem;
+    width: 9.375rem;
+    height: 3rem;
+}
+
+.middle_container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.profile {
+    margin: 60px auto;
+}
+
+.profile_img {
     margin: 0 auto;
-    position: absolute;
-    top: 40px;
-    right: 25%;
-    width: 7%;
 }
 
-.middle-cloud {
-    position: absolute;
-    left: 25%;
-    width: 8%;
+.intro {
+    width: 300px;
+    margin: 0 auto;
 }
 
-.mountain {
-    width: 60%;
-}
-
-.head-name {
-    color: #66BFBF;
-    font-family: 'Edu TAS Beginner', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-}
-
-.head-job {
-    color: #66BFBF;
-    font-family: 'Edu TAS Beginner', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 35px;
-}
-
-.pro {
-    text-decoration: underline;
+.skills {
+    margin: 60px auto;
 }
