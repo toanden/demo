@@ -75,9 +75,10 @@ h3 {
 }
 
 .skill_row {
-    margin: 100px auto 100px auto;
+    margin: 50px auto 50px auto;
     width: 50%;
     text-align: left;
+    padding: 50px 0px 50px 0px;
 }
 
 .tag_img {
@@ -151,4 +152,12 @@ h3 {
     margin: 40px auto;
     color: #EAF6F6;
     padding-top: 40px;
+}
+
+.develop_skill_detail {
+    width: 100%
+}
+
+.hotwing_detail {
+    width: 100%
 }
